@@ -1,0 +1,15 @@
+{
+"name": "../static/TS017_hh_size_5a_2021",
+"description": "../static/TS017_hh_size_5a_2021",
+"version": "2",
+"minzoom": "8",
+"maxzoom": "13",
+"center": "-0.197754,51.795025,13",
+"bounds": "-5.224962,50.231904,1.385856,55.170890",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.15.0",
+"generator_options": "/usr/local/bin/tippecanoe -f -l TS017_hh_size_5a_2021 -r3 --drop-fraction-as-needed --no-tile-compression --no-tile-size-limit --no-feature-limit -P '--output-to-directory=../static/TS017_hh_size_5a_2021' -z13 -B12 -Z8 temp/TS017_hh_size_5a_2021.geojson temp/TS021_ethnic_group_tb_6a_2021.geojson",
+"strategies": "[ {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, { \"dropped_by_rate\": 98116 }, { \"dropped_by_rate\": 91858 }, { \"dropped_by_rate\": 83298 }, { \"dropped_by_rate\": 62626 }, {  }, {  } ]",
+"json": "{\"vector_layers\": [ { \"id\": \"TS017_hh_size_5a_2021\", \"description\": \"\", \"minzoom\": 8, \"maxzoom\": 13, \"fields\": {\"cat\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"TS017_hh_size_5a_2021\",\"count\": 88661,\"geometry\": \"Point\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"cat\",\"count\": 5,\"type\": \"number\",\"values\": [0,1,2,3,4],\"min\": 0,\"max\": 4}]}]}}"
+}
