@@ -1,3 +1,10 @@
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
 # Logs
 logs
 *.log
